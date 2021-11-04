@@ -1281,6 +1281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9179352341441980931, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1325,17 +1329,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7521019198113739249, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6247663122607560404, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -652209905907201759, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
       propertyPath: m_Name
       value: Segap 01 09 Puzzle 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1462619414350197242, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993866653403783919, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6444722709121564753, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7333631254909853010, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
