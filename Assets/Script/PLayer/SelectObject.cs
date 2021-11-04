@@ -84,19 +84,22 @@ public class SelectObject : MonoBehaviour
                 if (hitInfo.collider.gameObject.name != "Plane")
                 {
                     //hitInfo.collider.gameObject.transform.SetParent(gameObject.transform);
-                    if (hitInfo.distance <= 2)
+                    if (hitInfo.distance <= 2.7f)
                     {
-
-                        Debug.Log(hitInfo.collider.gameObject.name);
-                        obj = hitInfo.collider.gameObject;
-                        
-                        flog = true;
-                        flagForRigidbodyOn = true;
-                        if (flagForRigidbodyOff)
+                        if (hitInfo.collider.gameObject.tag== "Cubes")
                         {
-                            obj.GetComponent<Rigidbody>().isKinematic = true;
-                            flagForRigidbodyOff = false;
+                            Debug.Log(hitInfo.collider.gameObject.name);
+                            obj = hitInfo.collider.gameObject;
+
+                            flog = true;
+                            flagForRigidbodyOn = true;
+                            if (flagForRigidbodyOff)
+                            {
+                                obj.GetComponent<Rigidbody>().isKinematic = true;
+                                flagForRigidbodyOff = false;
+                            }
                         }
+                       
                     }
 
                 }
