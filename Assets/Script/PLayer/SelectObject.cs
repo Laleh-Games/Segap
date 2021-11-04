@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 public class SelectObject : MonoBehaviour
 {
     
@@ -11,7 +12,7 @@ public class SelectObject : MonoBehaviour
     [SerializeField] private Camera Camera;
     private bool flagForRigidbodyOn = true;
     private bool flagForRigidbodyOff = true;
-
+    [SerializeField] private RawImage poeint;
     void Update()
     {
         // Call every frame
@@ -31,6 +32,7 @@ public class SelectObject : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
+            poeint.color = Color.white;
             flog = false;
             if(flagForRigidbodyOn)
             {
@@ -48,7 +50,7 @@ public class SelectObject : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 
-
+            poeint.color = Color.green;
             //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 2, Color.blue);
             //RaycastHit hit;
             //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 2, Color.white);
