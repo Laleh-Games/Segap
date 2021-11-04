@@ -21,7 +21,8 @@ public class DoorButom : MonoBehaviour
     {
         if (other.gameObject.tag == "Cubes")
         {
-            
+                            GameObject.Find("Door2Sound").GetComponent<AudioSource>().Play();
+
                 animator.SetBool("SmallDoor", true);
             //animshin
             Debug.Log(other.gameObject.tag);

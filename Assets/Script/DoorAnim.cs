@@ -24,6 +24,7 @@ public class DoorAnim : MonoBehaviour
             if (flag)
             {
                 animator.SetTrigger("SetDoorOpen");
+                GameObject.Find("Door1Sound").GetComponent<AudioSource>().Play();
                 //animshin
                 flag = false;
             }

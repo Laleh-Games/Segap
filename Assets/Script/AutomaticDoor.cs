@@ -36,6 +36,11 @@ public class AutomaticDoor : MonoBehaviour
     }
 
     void MoveDoor(Vector3 goalPos){
+
+        if (GetComponentInChildren<AudioSource>())
+        {
+            GetComponentInChildren<AudioSource>().Play();
+        }
         float dist = Vector3.Distance(transform.position, goalPos);
         if (dist > .1f)
         {
