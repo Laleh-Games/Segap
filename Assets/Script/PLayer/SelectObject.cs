@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
-
+using System.Collections;
+using System.Collections.Generic;
 public class SelectObject : MonoBehaviour
 {
-
+    
     public GameObject pos;
     private GameObject obj;
     private RaycastHit hit;
     private bool flog = false;
-
+    [SerializeField] private Camera Camera;
     private bool flagForRigidbodyOn = true;
     private bool flagForRigidbodyOff = true;
 
@@ -43,6 +44,7 @@ public class SelectObject : MonoBehaviour
     void MouseInput()
     {
         // When Mouse 0 is pressed
+        
         if (Input.GetMouseButtonDown(0))
         {
 
@@ -73,7 +75,7 @@ public class SelectObject : MonoBehaviour
                 RaycastHit hitInfo;
 
             // Setup ray based on mouse input position
-            Ray rayFromMouseInput = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray rayFromMouseInput = Camera.ScreenPointToRay(Input.mousePosition);
 
             // Populates hitInfo if returns true
             if (Physics.Raycast(rayFromMouseInput, out hitInfo))
