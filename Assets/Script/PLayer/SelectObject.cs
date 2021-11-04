@@ -466,6 +466,14 @@ public class SelectObject : MonoBehaviour
                                                                         meshRenderers[11].material = materials;
                                                                         Debug.LogWarning("pss=" +" poss[3, 2]" + " bol " + bol[3, 2]);
                                                                         Debug.Log("Good");
+                                                                        if (GameObject.Find("Cube.042 (1)").GetComponent<AutomaticDoor>().Moving == false)
+                                                                            {
+                                                                                GameObject.Find("Cube.042 (1)").GetComponent<AutomaticDoor>().Moving = true;
+                                                                            }
+                                                                            if (GameObject.Find("Cube.043 (1)").GetComponent<AutomaticDoor>().Moving == false)
+                                                                            {
+                                                                                GameObject.Find("Cube.043 (1)").GetComponent<AutomaticDoor>().Moving = true;
+                                                                            }
                                                                     }
                                                                       
                                                                 }
