@@ -3,7 +3,107 @@ guid: 396dc8b4f64f7364197ed535f52f8834
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 01
+    second: {fileID: 2100000, guid: 941c5b3fafe3099498e0cd7296c3ca0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 02
+    second: {fileID: 2100000, guid: 430158b5ed51e3d4cbe8d01406bcb1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 03
+    second: {fileID: 2100000, guid: 4473250907c1a6d429906d9272fe9369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Glass
+    second: {fileID: 2100000, guid: 6609301c6be99af48a95393c9e3dea39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emission 2 blue
+    second: {fileID: 2100000, guid: c6b31473307a1ab40a3a52c8ca2419e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emission 2 red
+    second: {fileID: 2100000, guid: d4ab17bd9e2e3084dad06c6503a16fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor 02
+    second: {fileID: 2100000, guid: 9f0bade65d49d4747b6d06e59bc5a48a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor 02_
+    second: {fileID: 2100000, guid: 8693ae0006b532149931210bcc784eba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lab Door Glass
+    second: {fileID: 2100000, guid: 1ce4adf488ab6324ca9047ccacd5f77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon Blue
+    second: {fileID: 2100000, guid: 0896d7156a4c76f458a124b18ecda2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 4544989affbedec48958d3ea9d19791e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel.001
+    second: {fileID: 2100000, guid: 23c3c88ec22d1604c88f3231df608dbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel.002
+    second: {fileID: 2100000, guid: ad703703903a61d4aa776f1f5e1fcaa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile Base
+    second: {fileID: 2100000, guid: 8575222792a6f0a4cbca5a4232d421ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile Off two
+    second: {fileID: 2100000, guid: 4d554f77532f9274082d29e80258583b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile off
+    second: {fileID: 2100000, guid: 968ccbc92ea7f454898e05db4b7fb493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall 01
+    second: {fileID: 2100000, guid: 38926c814968fff4ca698c16fc8a3c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall 04
+    second: {fileID: 2100000, guid: de37323283eeca34cb226eafbe4be20c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall 3
+    second: {fileID: 2100000, guid: 1433db0cbe7c044409e9b1811a094a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Light
+    second: {fileID: 2100000, guid: c8026de10c3ce9242bf41ed5508aa014, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
