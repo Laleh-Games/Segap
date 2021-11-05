@@ -1007,9 +1007,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7987136225488213492, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7987136225488213492, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
     - target: {fileID: -7325346653114575390, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6247230116372618949, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00391
+      objectReference: {fileID: 0}
+    - target: {fileID: -6247230116372618949, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00514
+      objectReference: {fileID: 0}
+    - target: {fileID: -6247230116372618949, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: -2969846435803464363, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2969846435803464363, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
+    - target: {fileID: -2266633630446793623, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2266633630446793623, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
       objectReference: {fileID: 0}
     - target: {fileID: -251241869400619796, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
       propertyPath: m_IsActive
@@ -1019,13 +1055,117 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 410383520111117949, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.695
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
       propertyPath: m_Name
       value: Segap 01 27 Puzzle 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1634782599618369882, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634782599618369882, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00486
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634782599618369882, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 2505271470697925691, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568553855256312629, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568553855256312629, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019600867011499253, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019600867011499253, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4019600867011499253, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420308467789613352, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420308467789613352, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693761384935016418, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00359
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693761384935016418, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00514
+      objectReference: {fileID: 0}
+    - target: {fileID: 4693761384935016418, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5675243463674430500, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054162884291013751, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00721
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054162884291013751, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054162884291013751, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243134190124847722, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00677
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243134190124847722, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243134190124847722, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460800823451820101, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_Name
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460800823451820101, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_TagString
+      value: Cubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195101666290432261, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00359
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195101666290432261, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00486
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195101666290432261, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
@@ -1164,8 +1304,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4795737975356854249, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
---- !u!65 &1479381474
-BoxCollider:
+--- !u!64 &1479381474
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1174,9 +1314,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.051392984, y: 0.051392976, z: 0.02927106}
-  m_Center: {x: 0, y: 0, z: 0.0046355324}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -811426879033574324, guid: cab179f3b49a68644a85c2782e100d35, type: 3}
 --- !u!65 &1479381475
 BoxCollider:
   m_ObjectHideFlags: 0
