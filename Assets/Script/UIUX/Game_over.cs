@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Game_over : MonoBehaviour
 {
-    [SerializeField] private string Home_name;
+ private string Home_name = "MainMenu";
 
+    public GameObject pausePanel;
     void Start()
     {
         
@@ -28,6 +29,19 @@ public class Game_over : MonoBehaviour
 
         SceneManager.LoadScene(Home_name);
 
+    }
+
+    public void ResumeBtn()
+    {
+        Time.timeScale = 1f;
+        GameObject.Find("PauseCanvas").SetActive(false);
+    }
+
+    public void PauseBtn()
+    {
+        Debug.Log("Entered!!!");
+        pausePanel.SetActive(true);
+        //Time.timeScale = 0f;
     }
 
 
