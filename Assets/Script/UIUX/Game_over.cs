@@ -8,6 +8,7 @@ public class Game_over : MonoBehaviour
  private string Home_name = "MainMenu";
 
     public GameObject pausePanel;
+    public GameObject Over_obj;
     void Start()
     {
         
@@ -47,6 +48,10 @@ public class Game_over : MonoBehaviour
         pausePanel.SetActive(true);
         //Time.timeScale = 0f;
     }
-
+    public void Game_over_s()
+    {
+        Over_obj.SetActive(true);
+        Time.timeScale = 0f;
+    }
 
 }

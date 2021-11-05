@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PLays1 : MonoBehaviour
 {
+    
   public  Game_maneger game_;
     void Start()
     {
@@ -22,11 +23,32 @@ public class PLays1 : MonoBehaviour
         if (other.gameObject.GetComponent<Renderer>().material.color==game_.Box[0].material.color)
         {
             gameObject.GetComponent<Renderer>().material.color = Color.green;
-           
-        }else
+            game_.kay += 1;
+            if (game_.kay == 6)
+            {
+                //game_obj
+                if (GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving = true;
+                }
+
+            }
+            else
+            {
+               
+
+            }
+
+
+        }
+        else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
-           
+            game_.kay -= 1;
 
         }
 

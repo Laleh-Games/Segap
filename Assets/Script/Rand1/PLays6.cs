@@ -23,17 +23,31 @@ public class PLays6 : MonoBehaviour
         if (other.gameObject.GetComponent<Renderer>().material.color == game_.Box[5].material.color)
         {
 
-            gameObject.GetComponent<Renderer>().material.color = Color.green;
+            gameObject.GetComponent<Renderer>().material.color = Color.green; game_.kay += 1;
             game_.kay += 1;
+            if (game_.kay == 7)
+            {
+                //game_obj
+                if (GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving = true;
+                }
+
+            }
+
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
+
             game_.kay -= 1;
 
-
         }
-
+        Debug.Log(game_.kay);
 
     }
 }

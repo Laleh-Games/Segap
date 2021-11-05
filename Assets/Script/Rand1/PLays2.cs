@@ -22,12 +22,26 @@ public class PLays2 : MonoBehaviour
         if (other.gameObject.GetComponent<Renderer>().material.color == game_.Box[1].material.color)
         {
             gameObject.GetComponent<Renderer>().material.color = Color.green;
-           
+            game_.kay += 1;
+            if (game_.kay == 6)
+            {
+                //game_obj
+                if (GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.070").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving = true;
+                }
+
+            }
+
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
-         
+            game_.kay -= 1;
 
         }
 

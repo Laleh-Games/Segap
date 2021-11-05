@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class selectobject_level3 : MonoBehaviour
 {
 
+    [SerializeField] private GameObject game_over;
     private GameObject obj;
     private RaycastHit hit;
     private bool flog = false;
@@ -25,9 +26,11 @@ public class selectobject_level3 : MonoBehaviour
     [SerializeField] private Renderer[] renderer;
     private int x = 0;
     private bool start_floge=false;
+    [SerializeField] private Text text;
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         for (int i = 1; i < agameObjects.Length; i++)
         {
             agameObjects[i].SetActive(false);
@@ -109,15 +112,24 @@ public class selectobject_level3 : MonoBehaviour
                                 {
                                     obj.GetComponent<Renderer>().material.color = Color.green;
                                     scor += 1;
-                                    tscor.text = scor.ToString();
+                                    tscor.text ="Correct: "+ scor.ToString();
                                 }
                                 else
                                 {
+                                    if (wrongs>=5)
+                                    {
+                                        game_over.SetActive(true);
+                                        Time.timeScale = 0;
+                                    }
+                                    else
+                                    {
+                                        obj.GetComponent<Renderer>().material.color = Color.red;
+                                        wrongs += 1;
+                                        wrong.text ="Wrong: "+wrongs.ToString();
+                                        Invoke("objectshower", 0.1f);
+                                    }
 
-                                    obj.GetComponent<Renderer>().material.color = Color.red;
-                                    wrongs += 1;
-                                    wrong.text = wrongs.ToString();
-                                    Invoke("objectshower", 0.1f);
+                                   
                                 }
                                 //flog = true;
                                 //flagForRigidbodyOn = true;
@@ -154,6 +166,7 @@ public class selectobject_level3 : MonoBehaviour
             agameObjects[x].SetActive(true);
             showobj = agameObjects[x];
             loop += 1;
+            text.text = "Remaining: " + (30 -loop ).ToString();
             timer = 3f;
             for (int i = 0; i < renderer.Length; i++)
             {
