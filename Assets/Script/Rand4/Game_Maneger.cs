@@ -24,7 +24,14 @@ public class Game_Maneger : MonoBehaviour
             if (avreg == 6)
             {
                 renderer.material.color = Color.green;
-                Debug.Log("Good");
+                if (GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving = true;
+                }
             }
             else
             {
@@ -87,6 +94,7 @@ public class Game_Maneger : MonoBehaviour
         }
     }
 }
+
 
 
 
