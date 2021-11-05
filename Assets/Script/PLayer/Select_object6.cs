@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Select_object_level4 : MonoBehaviour
+public class Select_object6 : MonoBehaviour
 {
     public GameObject pos;
     private GameObject obj;
@@ -26,7 +26,7 @@ public class Select_object_level4 : MonoBehaviour
         {
             if (obj != null)
             {
-                obj.transform.position = new Vector3(pos.transform.position.x, pos.transform.position.y, pos.transform.position.z);
+              //  obj.transform.position = new Vector3(pos.transform.position.x, pos.transform.position.y, pos.transform.position.z);
             }
             else
             {
@@ -42,7 +42,7 @@ public class Select_object_level4 : MonoBehaviour
                 flog = false;
                 if (flagForRigidbodyOn)
                 {
-                    obj.GetComponent<Rigidbody>().isKinematic = false;
+                    
                     flagForRigidbodyOff = true;
                     flagForRigidbodyOn = false;
                 }
@@ -69,7 +69,7 @@ public class Select_object_level4 : MonoBehaviour
                 // Populates hitInfo if returns true
                 if (Physics.Raycast(rayFromMouseInput, out hitInfo))
                 {
-                    Debug.Log(hitInfo.collider.gameObject.name);
+
                     if (hitInfo.collider.gameObject.name != "Plane")
                     {
                         //hitInfo.collider.gameObject.transform.SetParent(gameObject.transform);
@@ -77,13 +77,11 @@ public class Select_object_level4 : MonoBehaviour
                         {
                             if (hitInfo.collider.gameObject.tag == "Cubes")
                             {
-
-                                cube = true;
-                                Debug.Log(hitInfo.collider.gameObject.name);
+                                
+                               
                                 obj = hitInfo.collider.gameObject;
+                                Debug.Log(hitInfo.collider.gameObject.name);
 
-                                flog = true;
-                                flagForRigidbodyOn = true;
 
                                 if (GameObject.Find("Cube.201").GetComponent<AutomaticDoor>().Moving == false)
                                 {
@@ -94,9 +92,14 @@ public class Select_object_level4 : MonoBehaviour
                                     GameObject.Find("Cube.202").GetComponent<AutomaticDoor>().Moving = true;
                                 }
 
+
+
+
+                                flog = true;
+                                flagForRigidbodyOn = true;
                                 if (flagForRigidbodyOff)
                                 {
-                                    obj.GetComponent<Rigidbody>().isKinematic = true;
+
                                     flagForRigidbodyOff = false;
                                 }
                             }

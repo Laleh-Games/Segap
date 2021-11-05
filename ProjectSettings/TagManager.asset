@@ -8,6 +8,8 @@ TagManager:
   - Tile
   - object
   - start
+  - Door
+  - true
   layers:
   - Default
   - TransparentFX
