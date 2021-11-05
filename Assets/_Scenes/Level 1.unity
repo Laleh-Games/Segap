@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -325,6 +325,7 @@ MonoBehaviour:
   - {fileID: 1744034248}
   - {fileID: 286698111}
   materials: {fileID: 2100000, guid: 308c9c217fa058f4eb7dfbfcde1f52f2, type: 2}
+  vecsler: {fileID: 1933928136}
 --- !u!136 &93432159
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -950,6 +951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 1652365073}
+  Over_obj: {fileID: 0}
 --- !u!4 &324276590 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 836453291944497873, guid: e7ff7cf8b6415574bb973bbdbbddfc79, type: 3}
@@ -2903,10 +2905,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -6012,6 +6014,7 @@ GameObject:
   - component: {fileID: 1933928135}
   - component: {fileID: 1933928134}
   - component: {fileID: 1933928133}
+  - component: {fileID: 1933928136}
   m_Layer: 0
   m_Name: SecondSound
   m_TagString: Untagged
@@ -6095,6 +6098,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933928131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1933928136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933928131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5febe5f364d318549855a154b94e2c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  text_time: {fileID: 0}
+  flage: 1
 --- !u!1 &2004985678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8337733595016879111, guid: abe5119bba254c34190964d2dd11ac54, type: 3}

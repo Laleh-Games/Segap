@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,7 +152,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0817d3a78f1be8949bd489e1c53ffb24, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -530,6 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4bc758077838094a80322b7d3eb945d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vecsler: {fileID: 424217924}
   game_over: {fileID: 1162275342}
   Camera: {fileID: 1318354601}
   poeint: {fileID: 857249433}
@@ -734,6 +735,7 @@ GameObject:
   - component: {fileID: 424217920}
   - component: {fileID: 424217919}
   - component: {fileID: 424217923}
+  - component: {fileID: 424217924}
   m_Layer: 0
   m_Name: Cube
   m_TagString: start
@@ -831,6 +833,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 984397318}
   Over_obj: {fileID: 0}
+--- !u!114 &424217924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424217918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5febe5f364d318549855a154b94e2c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  text_time: {fileID: 0}
+  flage: 1
+  name: 
 --- !u!1 &424542362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +2165,7 @@ Transform:
   m_LocalScale: {x: 4.96, y: 1, z: 5.05}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044873248
 GameObject:
@@ -4263,6 +4281,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9161317221586284657, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: Over_obj

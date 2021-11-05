@@ -17,6 +17,7 @@ public class SelectObject : MonoBehaviour
     private bool cube = false;
     [SerializeField] private MeshRenderer[] meshRenderers = new MeshRenderer[12];
     [SerializeField] private Material materials ;
+    [SerializeField] public Vecsler vecsler;
     private void Start()
     {
         for (int i = 0; i < 4; i++)
@@ -474,6 +475,8 @@ public class SelectObject : MonoBehaviour
                                                                             {
                                                                                 GameObject.Find("Cube.043 (1)").GetComponent<AutomaticDoor>().Moving = true;
                                                                             }
+                                                                        vecsler.flage = false;
+                                                                        vecsler.name = "level1";
                                                                     }
                                                                       
                                                                 }

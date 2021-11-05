@@ -5,6 +5,7 @@ using UnityEngine;
 public class PLays6 : MonoBehaviour
 {
     public Game_maneger game_;
+    public Vecsler vecsler;
     void Start()
     {
 
@@ -36,6 +37,8 @@ public class PLays6 : MonoBehaviour
                 {
                     GameObject.Find("Cube.071").GetComponent<AutomaticDoor>().Moving = true;
                 }
+                vecsler.flage = false;
+                vecsler.name = "level2";
 
             }
 

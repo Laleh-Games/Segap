@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Game_Maneger : MonoBehaviour
 {
+    public Vecsler vecsler;
     private int avreg = 0;
     [SerializeField] private Renderer renderer;
     void Start()
@@ -20,7 +21,7 @@ public class Game_Maneger : MonoBehaviour
     {
         if (collision.gameObject.name == "daere")
         {
-            avreg += 2;
+            avreg += 1;
             if (avreg == 6)
             {
                 renderer.material.color = Color.green;
@@ -32,6 +33,8 @@ public class Game_Maneger : MonoBehaviour
                 {
                     GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving = true;
                 }
+                vecsler.flage = false;
+                vecsler.name = "level4";
             }
             else
             {
@@ -41,7 +44,7 @@ public class Game_Maneger : MonoBehaviour
         }
         else if (collision.gameObject.name == "morbe")
         {
-            avreg += 1;
+            avreg += 2;
             if (avreg == 6)
             {
                 if (GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving == false)
@@ -92,13 +95,13 @@ public class Game_Maneger : MonoBehaviour
 
         if (collision.gameObject.name == "daere")
         {
-            avreg -= 2;
+            avreg -= 1;
             Debug.Log(avreg);
 
         }
         else if (collision.gameObject.name == "morbe")
         {
-            avreg -= 1;
+            avreg -= 2;
             Debug.Log(avreg);
 
         }

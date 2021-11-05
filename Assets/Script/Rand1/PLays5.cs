@@ -42,7 +42,7 @@ public class PLays5 : MonoBehaviour
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
-           
+            game_.kay -= 1;
 
         }
 

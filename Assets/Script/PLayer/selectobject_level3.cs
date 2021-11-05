@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class selectobject_level3 : MonoBehaviour
 {
-
+    public Vecsler vecsler;
     [SerializeField] private GameObject game_over;
     private GameObject obj;
     private RaycastHit hit;
@@ -157,6 +157,8 @@ public class selectobject_level3 : MonoBehaviour
             {
                 GameObject.Find("Cube.111").GetComponent<AutomaticDoor>().Moving = true;
             }
+            vecsler.flage = false;
+            vecsler.name = "level3";
 
         }
         else
