@@ -16,7 +16,11 @@ public class Game_over : MonoBehaviour
    
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pausePanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 
     public void  reset_scene()
