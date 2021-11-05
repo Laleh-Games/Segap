@@ -4,27 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: aaf2e067599e061479e19f30641f56b2
-<<<<<<< Updated upstream
-  - enabled: 1
-    path: Assets/Scenes/Maze 1.unity
-    guid: 4e9e7c6ca30dd34408cc21c4766a4dbb
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 8abe5dd76ea154a419ccbc25b993ed44
-  - enabled: 1
-    path: Assets/Scenes/Maze 2.unity
-    guid: 26f36e2a164caed429c4feee38ff2d4d
-  - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: dc95c42f89945c5428a9bed9e7ade119
-  - enabled: 1
-    path: Assets/Scenes/Maze 3.unity
-    guid: 2b44e02f482ceae498276c34513bbbc4
-=======
->>>>>>> Stashed changes
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 53a5488d716c16047b850afad7694e36, type: 2}
+  m_Scenes: []
+  m_configObjects: {}
