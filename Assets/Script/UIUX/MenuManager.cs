@@ -14,8 +14,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fide.SetActive(false);
-        Sating_Panel.SetActive(false);
+      
     }
 
     // Update is called once per frame
@@ -26,7 +25,7 @@ public class MenuManager : MonoBehaviour
 
     public void start_Clike()
     {
-        fide.SetActive(true);
+       
         SceneManager.LoadScene(_level);
 
 
