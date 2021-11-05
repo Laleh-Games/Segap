@@ -777,8 +777,8 @@ MonoBehaviour:
   - {fileID: 226653932}
   - {fileID: 1797105600}
   - {fileID: 2006776504}
-  timeRemaining: 30
-  timer: 13
+  timeRemaining: 50
+  timer: 25
   _Timer: {fileID: 1663520019}
   kay: 0
   game_Over: {fileID: 294113318}
