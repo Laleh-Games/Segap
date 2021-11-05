@@ -24,10 +24,13 @@ public class PLays6 : MonoBehaviour
         {
 
             gameObject.GetComponent<Renderer>().material.color = Color.green;
+            game_.kay += 1;
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
+            game_.kay -= 1;
+
 
         }
 

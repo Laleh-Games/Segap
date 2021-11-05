@@ -21,10 +21,12 @@ public class Plays3 : MonoBehaviour
         if (other.gameObject.GetComponent<Renderer>().material.color == game_._color[2])
         {
             gameObject.GetComponent<Renderer>().material.color = Color.green;
+           
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
+           
 
         }
 

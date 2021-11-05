@@ -12,6 +12,7 @@ public class Game_maneger : MonoBehaviour
     public float timeRemaining = 50f;
     public float timer = 20f;
     public Text _Timer;
+    public int kay = 0;
     void Start()
     {
         _Timer.text = "0:00";
@@ -62,5 +63,6 @@ public class Game_maneger : MonoBehaviour
 
     }
 
+   
     
 }

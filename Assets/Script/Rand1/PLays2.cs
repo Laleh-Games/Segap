@@ -22,10 +22,12 @@ public class PLays2 : MonoBehaviour
         if (other.gameObject.GetComponent<Renderer>().material.color == game_.Box[1].material.color)
         {
             gameObject.GetComponent<Renderer>().material.color = Color.green;
+           
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
+         
 
         }
 

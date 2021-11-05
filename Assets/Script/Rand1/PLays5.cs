@@ -23,10 +23,12 @@ public class PLays5 : MonoBehaviour
         {
            
             gameObject.GetComponent<Renderer>().material.color = Color.green;
+           
         }
         else
         {
             gameObject.GetComponent<Renderer>().material.color = Color.red;
+           
 
         }
 
