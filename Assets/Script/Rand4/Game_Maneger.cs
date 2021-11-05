@@ -44,6 +44,14 @@ public class Game_Maneger : MonoBehaviour
             avreg += 1;
             if (avreg == 6)
             {
+                if (GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving = true;
+                }
                 renderer.material.color = Color.green;
                 Debug.Log("Good");
             }
@@ -57,7 +65,16 @@ public class Game_Maneger : MonoBehaviour
         {
             avreg += 3;
             if (avreg == 6)
+
             {
+                if (GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.143").GetComponent<AutomaticDoor>().Moving = true;
+                }
+                if (GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving == false)
+                {
+                    GameObject.Find("Cube.144").GetComponent<AutomaticDoor>().Moving = true;
+                }
                 renderer.material.color = Color.green;
                 Debug.Log("Good");
             }

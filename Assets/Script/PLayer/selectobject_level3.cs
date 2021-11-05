@@ -137,8 +137,15 @@ public class selectobject_level3 : MonoBehaviour
     {
         if (loop == 30)
         {
+            if (GameObject.Find("Cube.110").GetComponent<AutomaticDoor>().Moving == false)
+            {
+                GameObject.Find("Cube.110").GetComponent<AutomaticDoor>().Moving = true;
+            }
+            if (GameObject.Find("Cube.111").GetComponent<AutomaticDoor>().Moving == false)
+            {
+                GameObject.Find("Cube.111").GetComponent<AutomaticDoor>().Moving = true;
+            }
 
-            //Game_over
         }
         else
         {
